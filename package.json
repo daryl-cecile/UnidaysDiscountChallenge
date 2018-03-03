@@ -1,0 +1,17 @@
+{
+  "name": "unidaysdiscountchallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/testCases.test.js",
+    "start": "tsc && node ."
+  },
+  "author": "Daryl Cecile",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^5.0.1",
+    "nodeunit": "^0.11.2",
+    "typescript": "^2.7.2"
+  }
+}
